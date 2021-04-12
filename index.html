@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/logo.png">
+    <script defer src="script.js"></script>
+    <title>Level</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div id="logo">
+                <img src="images/logo.png" alt="tree logo" class="logo-img">
+                <h1>Level</h1>
+            </div>
+            <ul id="main-nav">
+                <li class="nav-item"><a href="#home">HOME</a></li>
+                <li class="nav-item"><a href="#portfolio">PORTFOLIO</a></li>
+                <li class="nav-item"><a href="#blogs">BLOG ENTRIES</a></li>
+                <li class="nav-item"><a href="#contact">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <div class="form-container">
+                <form id="check-in-form">
+                    <div class="form-group1">
+                        <label for="destination" id="destination-label"></label>
+                        <input type="text" placeholder="Type your destination..." id="destination" name="destination" class="form-control" required>
+                        <label for="check-in" id="check-in-label"></label>
+                        <input type="date" placeholder="Check In" id="check-in" name="check-in" class="form-control">
+                        <label for="check-out" id="check-out-label"></label>
+                        <input type="date" placeholder="Check Out" id="check-out" name="check-out" class="form-control">
+                    </div>
+
+                    <div class="form-group2">
+                        <label for="adult" id="adult-label"></label>
+                        <input type="number" placeholder="Adult" id="adult" name="adult" class="form-control2" required>
+                        <label for="children" id="children-label"></label>
+                        <input type="number" placeholder="Children" id="children" name="children" class="form-control2" required>
+                        <label for="room" name="room-label"></label>
+                        <input type="number" id="room" name="room" placeholder="Room" class="form-control2" required>
+                        <button type="submit" id="submit-btn">CHECK AVAILABILITY</button>
+                    </div>
+                </form>
+                <div class="form-content">
+                    <p id="form-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p id="form-question">Need Help?</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="subscription">
+            <h1 class="subs-heading">We are here to help you?</h1>
+            <h4 class="news-heading">Subscribe to get out newsletters</h4>
+            <a href="#home" id="subs-btn">SUBSCRIBE NEWSLETTERS</a>
+        </section>
+
+        <section id="cards">
+            <div class="cards-container">
+                <article class="card">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Icons" x="0px" y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+                        <g>
+                            <path d="M6.6,19.8c-0.3,0-0.5-0.1-0.7-0.3l-3.7-3.7c-0.2-0.2-0.3-0.4-0.3-0.7s0.1-0.5,0.3-0.7l1.5-1.5c0.3-0.3,0.7-0.4,1-0.2   l0.8,0.3l0.6-0.6c-0.1-1,0.2-2.1,1-2.9l4.2-4.2c1.7-1.7,4-2.7,6.5-2.8l0.4,0c0.4,0,0.8,0.2,0.9,0.6s0.1,0.8-0.2,1.1l-0.5,0.5   c-1.3,1.3-2,3.1-1.7,4.9c0,0.3-0.1,0.6-0.3,0.8l-4.2,4.2c-0.8,0.8-1.8,1.1-2.9,1l-0.6,0.6L9,17c0.1,0.4,0,0.7-0.2,1l-1.5,1.5   C7.1,19.7,6.9,19.8,6.6,19.8z" />
+                        </g>
+                        <path d="M28.8,22.4L17.6,12.1l-3.9,3.9c-0.1,0.1-0.1,0.1-0.2,0.2l10.4,11.3c0.7,0.7,1.5,1.1,2.5,1.1c0,0,0.1,0,0.1,0  c0.9,0,1.8-0.4,2.5-1c0.7-0.7,1-1.6,1-2.6C29.9,24,29.5,23.1,28.8,22.4z" />
+                    </svg>
+                    <h3 class="card-heading">Lorem ipsum dolor sit amet consectetur</h3>
+                    <p class="card-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mattis quam scelerisque elementum pretium. Proin mollis.</p>
+                    <a href="#home" class="more-text">CONTINUE READING...</a>
+                </article>
+
+                <article class="card">
+                    <svg id="wheel" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+                        <path d="M490.7,0c-21.3,0-42.7,0-53.3,10.7l-85.3,96H21.3L0,138.7l234.7,74.7l-64,85.3h-96l-32,32l64,21.3v32  c0.7,11.5,10.7,21.3,21.3,21.3h32l21.3,64l32-32v-96l85.3-64L373.3,512l32-21.3V160l96-85.3C512,64,512,42.7,512,21.3  C512,10.7,501.3,0,490.7,0z" />
+                    </svg>
+                    <h3 class="card-heading">Vestibulum sodales tellus non mauris condimentum</h3>
+                    <p class="card-paragraph">Vivamus tincidunt metus tortor, id consequat elit feugiat ut. Aliquam ex orci, vehicula et ultrices ut.</p>
+                    <a href="#home" class="more-text">CONTINUE READING...</a>
+                </article>
+
+                <article class="card">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Icons" x="0px" y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+                        <circle class="st0" cx="16" cy="14" r="12" />
+                        <circle class="st0" cx="16" cy="14" r="8" />
+                        <path class="st0" d="M8.2,13.3c3.3,0.9,5.7,3.9,5.8,7.4" />
+                        <path class="st0" d="M18,20.7c0.1-3.6,2.5-6.5,5.8-7.4" />
+                        <path class="st0" d="M9,11L9,11c4.6-1.3,9.4-1.3,14,0l0,0" />
+                        <path class="st0" d="M21.5,24.6l1.7,2.1c1.1,1.3,0.2,3.3-1.5,3.3H10.3c-1.7,0-2.6-2-1.5-3.3l1.7-2.1" />
+                        <circle class="st0" cx="16" cy="14" r="1" />
+                    </svg>
+                    <h3 class="card-heading">Suspendisse hendrerit tortor sit amet lacus</h3>
+                    <p class="card-paragraph">Sed vulputate mauris ex, a eleifend mauris facilisis ac. Suspendisse porttitor pellentesque elit id tincidunt. Nullam.</p>
+                    <a href="#home" class="more-text">CONTINUE READING...</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <div class="portfolio-container">
+                <div class="portfolio-content" id="#first-content">
+                    <img src="images/img-01.jpg" alt="los angeles neighborhood" class="port-img">
+                    <h3 class="portfolio-heading">Nunc in felis aliquet metus luctus iaculis</h3>
+                    <p class="portfolio-paragraph">Aliquam ac lacus volutpat, dictum risus at, scelerisque nulla. Nullam sollicitudin at augue venenatis eleifend. Nulla ligula ligula, egestas sit amet viverra id, iaculis sit amet ligula.</p>
+                    <a href="#home" class="more-btn">GET MORE INFO.</a>
+                </div>
+                <div class="portfolio-content" id="second-content">
+                    <img src="images/img-02.jpg" alt="nyc skyscrappers view" class="port-img">
+                    <h3 class="portfolio-heading">Sed cursus dictum nunc quis molestie</h3>
+                    <p class="portfolio-paragraph">Pellentesque quis dui sit amet purus scelerisque eleifend sed ut eros. Morbi viverra blandit massa in varius. Sed nec ex eu ex tincidunt iaculis. Curabitur eget turpis gravida.</p>
+                    <a href="#home" class="more-btn">VIEW DETAIL</a>
+                </div>
+
+
+                <div class="portfolio-content" id="third-content">
+                    <img src="images/img-01.jpg" alt="los angeles neighborhood" class="port-img">
+                    <h3 class="portfolio-heading">Eget diam pellentesque interdum ut porta</h3>
+                    <p class="portfolio-paragraph">Aenean finibus tempor nulla, et maximus nibh dapibus ac. Duis consequat sed sapien venenatis consequat. Aliquam ac lacus volutpat, dictum risus at, scelerisque nulla.</p>
+                    <a href="#home" class="more-btn">MORE INFO.</a>
+                </div>
+                <div class="portfolio-content" id="fourth-content">
+                    <img src="images/img-02.jpg" alt="nyc skyscrappers view" class="port-img">
+                    <h3 class="portfolio-heading">Lorem ipsum dolor sit amet, consectetur</h3>
+                    <p class="portfolio-paragraph">Suspendisse molestie sed dui eget faucibus. Duis accumsan sagittis tortor in ultrices. Praesent tortor ante, fringilla ac nibh porttitor, fermentum commodo nulla.</p>
+                    <a href="#home" class="more-btn">DETAIL INFO.</a>
+                </div>
+                <div class="portfolio-content" id="fifth-content">
+                    <img src="images/img-01.jpg" alt="los angeles neighborhood" class="port-img">
+                    <h3 class="portfolio-heading">Orci varius natoque penatibus et</h3>
+                    <p class="portfolio-paragraph">Pellentesque quis dui sit amet purus scelerisque eleifend sed ut eros. Morbi viverra blandit massa in varius. Sed nec ex eu ex tincidunt iaculis. Curabitur eget turpis gravida.</p>
+                    <a href="#home" class="more-btn">READ MORE</a>
+                </div>
+                <div class="portfolio-content" id="sixth-content">
+                    <img src="images/img-02.jpg" alt="nyc skyscrappers view" class="port-img">
+                    <h3 class="portfolio-heading">Nullam sollicitudin at augue venenatis eleifend</h3>
+                    <p class="portfolio-paragraph">Aenean finibus tempor nulla, et maximus nibh dapibus ac. Duis consequat sed sapien venenatis consequat. Aliquam ac lacus volutpat, dictum risus at, scelerisque nulla.</p>
+                    <a href="#home" class="more-btn">MORE DETAILS.</a>
+                </div>
+
+
+                <div class="recommendations">
+                    <div class="recommendation-heading">
+                        <h2 class="heading-container">Recommend Places</h2>
+                        <p class="recommend-paragraph">Enamel pin cliche tilde, kitsch and VHS thundercats</p>
+                    </div>
+                    <div class="country-container">
+                        <img src="images/tn-img-01.jpg" alt="photo overlooking europe" class="country-img">
+                        <h3 class="country-name">EUROPE</h3>
+                    </div>
+                    <div class="country-container">
+                        <img src="images/tn-img-02.jpg" alt="photo overlooking asia mountains in clear sky" class="country-img">
+                        <h3 class="country-name">ASIA</h3>
+                    </div>
+                    <div class="country-container">
+                        <img src="images/tn-img-03.jpg" alt="photo overlooking africa land" class="country-img">
+                        <h3 class="country-name">AFRICA</h3>
+                    </div>
+                    <div class="country-container">
+                        <img src="images/tn-img-04.jpg" alt="photo overlooking south america land" class="country-img">
+                        <h3 class="country-name">SOUTH AMERICA</h3>
+                    </div>
+
+                </div>
+            </div>
+            <div class="dot-container">
+                <div class="dot" onclick="firstDot();"></div>
+                <div class="dot" onclick="secondDot();"></div>
+                <div class="dot" onclick="thirdDot();"></div>
+                <div class="dot" onclick="fourthDot();"></div>
+                <div class="dot" onclick="fifthDot();"></div>
+            </div>
+
+        </section>
+
+        <section id="video">
+            <video playsinline autoplay muted loop id="background-video">
+                <source src="video/video.mp4">
+            </video>
+        </section>
+
+        <section id="blogs">
+            <div class="title-container">
+                <h1 id="blog-country">ASIA</h1>
+                <h2 id="blog-country2">Singapore</h2>
+            </div>
+            <div class="blogs-container">
+                <div class="blog-entries">
+                    <img src="images/img-03.jpg" alt="decorative skull">
+                    <div class="blog-info">
+                        <h3 class="blog-title">Suspendisse vel est libero sem phasellus ac laoreet</h3>
+                        <p class="blog-paragraph">Vivamus eget tellus ornare, sollicitudin quam id, dictum nulla. Phasellus finibus rhoncus justo, tempus eleifend neque dictum ac. Aenean metus leo, consectetur non.
+                            <br>
+                            <br>
+                            Vivamus eget tellus ornare, sollicitudin quam id, dictum nulla. Phasellus finibus rhoncus justo, tempus eleifend neque dictum ac. Aenean metus leo, consectetur non.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="blog-entries">
+                    <img src="images/img-04.jpg" alt="opened laptop on desk with pencil holder and paper">
+                    <div class="blog-info">
+                        <h3 class="blog-title2">Suspendisse vel est libero sem phasellus ac laoreet</h3>
+                        <p class="blog-paragraph">Duis accumsan sagittis tortor in ultrices. Praesent tortor ante, fringilla ac nibh porttitor, fermentum commodo nulla.</p>
+                        <a href="#home" class="more-text" id="more-blog">CONTINUE READING...</a>
+                    </div>
+                </div>
+
+                <div class="blog-entries">
+                    <img src="images/img-05.jpg" alt="man standing on top of a rock at a beach with his hands up and right leg up">
+                    <div class="blog-info">
+                        <h3 class="blog-title2">Faucibus dolor ligula nisl metus auctor aliquet</h3>
+                        <p class="blog-paragraph">Nunc in felis aliquet metus luctus iaculis vel et nisi. Nulla venenatis nisl orci, laoreet ultricies massa tristique id.</p>
+                        <a href="#home" class="more-text" id="more-blog">CONTINUE READING...</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="contact-container">
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12096.254076967456!2d-73.99354565842103!3d40.7166181693009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2598015ac8beb%3A0x59b849fea56b6a70!2sLower%20East%20Side%2C%20New%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1616271818081!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" class="map-google"></iframe>
+                </div>
+
+                <div class="form-container2">
+                    <form id="contact-form">
+                        <div class="form-contents">
+                            <label for="name" id="name-label"></label>
+                            <input type="text" placeholder="Name" required id="name" class="contact-input">
+                        </div>
+                        <div class="form-contents">
+                            <label for="email" id="email-label"></label>
+                            <input type="email" placeholder="Email" required id="email" name="email" class="contact-input">
+                        </div>
+                        <div class="form-contents">
+                            <label for="subject" id="subject-label"></label>
+                            <input type="text" placeholder="Subject" required id="subject" name="subject" class="contact-input">
+                        </div>
+                        <div class="form-contents">
+                            <textarea id="message" name="message" rows="8" cols="40" class="contact-input">Message</textarea>
+                        </div>
+
+                        <div class="form-contents">
+                            <button type="submit" id="submit-contact">SEND MESSAGE NOW</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright &#169; 2021 <span>Karina Pichardo</span> - Design: Tooplate</p>
+    </footer>
+</body>
+
+</html>
