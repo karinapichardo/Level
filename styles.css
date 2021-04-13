@@ -17,8 +17,11 @@ nav {
     width: 100%;
     position: fixed;
     top: 0;
-    height: 7em;
+    height: 8em;
     z-index: 1;
+    transition: 0.2s ease-out;
+    overflow: hidden;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
 
 li {
@@ -55,7 +58,7 @@ a {
     font-weight: 100;
     font-size: 1rem;
     padding-top: 40px;
-    height: 7em;
+    height: 8em;
     border-right: 1px solid #ededed;
 }
 
