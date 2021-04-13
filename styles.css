@@ -128,10 +128,12 @@ a {
 }
 
 .form-content {
+    margin-top: -10px;
     font-size: 0.9rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 0px 2rem 2rem;
 }
 
 #form-paragraph,
