@@ -95,7 +95,6 @@ a {
     max-width: 800px;
     margin: auto;
     display: block;
-    padding: 2rem;
 }
 
 .form-control {
@@ -129,7 +128,6 @@ a {
 }
 
 .form-content {
-    margin-top: 1.1rem;
     font-size: 0.9rem;
     display: flex;
     flex-direction: row;
@@ -410,7 +408,6 @@ video {
     position: absolute;
     top: 350px;
     left: 150px;
-
 }
 
 #blog-country {
@@ -469,7 +466,7 @@ video {
 #contact {
     background-image: url(images/bg-img-3.jpg);
     margin-top: -160px;
-    padding-top: 260px;
+    padding-top: 19%;
     background-size: cover;
     background-position: center center;
     min-height: 100vh;
