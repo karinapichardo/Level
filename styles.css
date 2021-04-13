@@ -410,6 +410,7 @@ video {
     position: absolute;
     top: 350px;
     left: 150px;
+
 }
 
 #blog-country {
@@ -532,14 +533,13 @@ footer {
     background-color: #1f3646;
     color: white;
     height: 10vh;
-}
-
-footer p {
-    text-align: center;
-    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 0.9rem;
     font-weight: 100;
 }
+
 
 span {
     color: #ee5057;
