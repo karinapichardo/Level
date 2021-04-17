@@ -81,6 +81,13 @@ a {
     color: white;
 }
 
+
+.active {
+    background-color: #ee5057;
+    height: 8em;
+    overflow: hidden;
+}
+
 /* home section */
 #home {
     background-image: url(images/bg-img-1.jpg);
