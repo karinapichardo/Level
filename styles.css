@@ -18,7 +18,7 @@ nav {
     position: fixed;
     top: 0;
     height: 8em;
-    z-index: 1;
+    z-index: 3;
     transition: 0.2s ease-out;
     overflow: hidden;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
@@ -85,7 +85,7 @@ a {
 .active {
     background-color: #ee5057;
     height: 8em;
-    overflow: hidden;
+    /*    overflow: hidden;*/
 }
 
 /* home section */
@@ -213,7 +213,7 @@ label {
 
 #check-in-label:before,
 #check-out-label:before {
-    z-index: 100;
+    z-index: 2;
     content: "";
     position: absolute;
     left: 4px;
