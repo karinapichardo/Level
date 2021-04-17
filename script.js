@@ -7,6 +7,15 @@ window.onscroll = function () {
     }
 }
 
+let listItem = document.querySelectorAll('#main-nav li');
+
+listItem.forEach(item => {
+    item.addEventListener('click', function () {
+        listItem.forEach(navItem => navItem.classList.remove('active'));
+        this.classList.add('active');
+    })
+})
+
 function firstDot() {
     document.getElementById('#first-content').style.display = 'block';
     document.querySelector('#second-content').style.display = 'block';
