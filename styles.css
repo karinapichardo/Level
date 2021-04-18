@@ -754,4 +754,11 @@ span {
         right: 30px;
     }
 
+    #contact {
+        height: 70vh;
+    }
+
+    .contact-container {
+        margin-top: 100px;
+    }
 }
