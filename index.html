@@ -8,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="images/logo.png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script defer src="script.js"></script>
     <title>Level</title>
 </head>
@@ -105,13 +106,13 @@
 
         <section id="portfolio">
             <div class="portfolio-container">
-                <div class="portfolio-content" id="#first-content">
+                <div class="portfolio-content" id="#first-content" data-aos="slide-down">
                     <img src="images/img-01.jpg" alt="los angeles neighborhood" class="port-img">
                     <h3 class="portfolio-heading">Nunc in felis aliquet metus luctus iaculis</h3>
                     <p class="portfolio-paragraph">Aliquam ac lacus volutpat, dictum risus at, scelerisque nulla. Nullam sollicitudin at augue venenatis eleifend. Nulla ligula ligula, egestas sit amet viverra id, iaculis sit amet ligula.</p>
                     <a href="#home" class="more-btn">GET MORE INFO.</a>
                 </div>
-                <div class="portfolio-content" id="second-content">
+                <div class="portfolio-content" id="second-content" data-aos="slide-up">
                     <img src="images/img-02.jpg" alt="nyc skyscrappers view" class="port-img">
                     <h3 class="portfolio-heading">Sed cursus dictum nunc quis molestie</h3>
                     <p class="portfolio-paragraph">Pellentesque quis dui sit amet purus scelerisque eleifend sed ut eros. Morbi viverra blandit massa in varius. Sed nec ex eu ex tincidunt iaculis. Curabitur eget turpis gravida.</p>
@@ -145,7 +146,7 @@
                 </div>
 
 
-                <div class="recommendations">
+                <div class="recommendations" data-aos="slide-down">
                     <div class="recommendation-heading">
                         <h2 class="heading-container">Recommend Places</h2>
                         <p class="recommend-paragraph">Enamel pin cliche tilde, kitsch and VHS thundercats</p>
@@ -225,11 +226,11 @@
 
         <section id="contact">
             <div class="contact-container">
-                <div class="map">
+                <div class="map" data-aos="slide-right">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12096.254076967456!2d-73.99354565842103!3d40.7166181693009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2598015ac8beb%3A0x59b849fea56b6a70!2sLower%20East%20Side%2C%20New%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1616271818081!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" class="map-google"></iframe>
                 </div>
 
-                <div class="form-container2">
+                <div class="form-container2" data-aos="slide-left">
                     <form id="contact-form">
                         <div class="form-contents">
                             <label for="name" id="name-label"></label>
@@ -261,6 +262,11 @@
     <footer>
         <p>Copyright &#169; 2021 <span>Karina Pichardo</span> - Design: Tooplate</p>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+    </script>
 </body>
 
 </html>
