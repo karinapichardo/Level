@@ -97,7 +97,6 @@ a {
     padding-top: 13%;
     height: 75vh;
     background-position: center center;
-    background-attachment: fixed;
 }
 
 .form-container {
@@ -640,4 +639,119 @@ footer {
 
 span {
     color: #ee5057;
+}
+
+/*larger tablets*/
+@media (max-width: 1024px) {
+    #logo {
+        left: 50px;
+    }
+
+    #home {
+        height: 40vh;
+    }
+
+    #blogs {
+        min-height: 70vh;
+    }
+
+    .title-container {
+        top: 60px;
+        left: 450px;
+    }
+
+    .blogs-container {
+        margin-top: 100px;
+        right: 150px;
+    }
+
+    #contact {
+        min-height: 50vh;
+    }
+
+}
+
+@media (max-width: 768px) {
+    #logo {
+        left: 0px;
+    }
+
+    #logo h1 {
+        font-size: 2.5rem;
+    }
+
+    #main-nav {
+        margin-left: 700px;
+    }
+
+    #home {
+        height: 60vh;
+    }
+
+    .form-container {
+        margin-top: 80px;
+        max-width: 730px;
+    }
+
+    .form-control {
+        width: 200px;
+    }
+
+    .form-control2 {
+        width: 200px;
+        margin-right: 0.4rem;
+    }
+
+    #submit-btn {
+        margin-top: 20px;
+    }
+
+    #form-question {
+        margin-right: 65px;
+    }
+
+    .cards-container {
+        display: grid;
+        grid-template-columns: 250px 250px;
+        grid-column-gap: 3.5rem;
+        margin-left: -150px;
+    }
+
+    .portfolio-container {
+        display: grid;
+        grid-template-columns: 300px 300px;
+        grid-gap: 2rem;
+        position: relative;
+    }
+
+    .country-container {
+        width: 565px;
+    }
+
+    .recommendations {
+        width: 600px;
+        margin-top: 20px;
+
+    }
+
+    .dot-container {
+        position: absolute;
+        top: 550px;
+        left: 320px;
+    }
+
+    #blogs {
+        height: 100vh;
+    }
+
+    .title-container {
+        top: 60px;
+        left: 300px;
+    }
+
+    .blogs-container {
+        width: 715px;
+        right: 30px;
+    }
+
 }
