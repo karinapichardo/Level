@@ -761,4 +761,18 @@ span {
     .contact-container {
         margin-top: 100px;
     }
+
+    .map {
+        margin-right: 1.2rem;
+    }
+
+    .map-google,
+    .form-container2 {
+        width: 360px;
+    }
+
+    .contact-input,
+    #submit-contact {
+        width: 300px;
+    }
 }
