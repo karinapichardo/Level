@@ -676,12 +676,8 @@ span {
         left: 0px;
     }
 
-    #logo h1 {
-        font-size: 2.5rem;
-    }
-
     #main-nav {
-        margin-left: 700px;
+        margin-right: 0px;
     }
 
     #home {
