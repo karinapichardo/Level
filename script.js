@@ -1,6 +1,10 @@
 window.onscroll = function () {
+    let isMobile = window.matchMedia("(max-width: 540px)").matches;
     var top = window.pageYOffset || document.documentElement.scrollTop;
-    if (top < 80) {
+
+    if (isMobile) {
+        document.querySelector('nav').style.height = "6em";
+    } else if (top < 80) {
         document.querySelector('nav').style.height = "8em";
     } else if (top > 80) {
         document.querySelector('nav').style.height = "6em";
