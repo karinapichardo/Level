@@ -804,6 +804,11 @@ span {
         width: 300px;
     }
 
+    .dot {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
     .dot-container {
         left: 130px;
         bottom: 80px;
