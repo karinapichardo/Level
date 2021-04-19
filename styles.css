@@ -16,10 +16,6 @@ body {
     font-family: Lato;
 }
 
-input[type=checkbox] {
-    display: none;
-}
-
 nav {
     background-color: white;
     width: 100%;
@@ -460,7 +456,6 @@ svg {
 }
 
 .dot-container {
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -743,6 +738,14 @@ span {
 
 /*mobile devices*/
 @media (max-width: 540px) {
+
+    #main-nav li {
+        display: none;
+    }
+
+    #home {
+        margin-top: 95px;
+    }
 
     .form-container {
         margin-top: 8px;
