@@ -20,6 +20,10 @@ listItem.forEach(item => {
     })
 })
 
+function hamburgerMenu() {
+    document.querySelector('#ham-menu').style.display = 'block';
+}
+
 function firstDot() {
     document.getElementById('#first-content').style.display = 'block';
     document.querySelector('#second-content').style.display = 'block';
