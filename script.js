@@ -20,9 +20,17 @@ listItem.forEach(item => {
     })
 })
 
+
 function hamburgerMenu() {
-    document.querySelector('#ham-menu').style.display = 'block';
+    var menuDisplay = document.querySelector('#ham-menu');
+
+    if (menuDisplay.style.display == 'none') {
+        menuDisplay.style.display = 'block';
+    } else {
+        menuDisplay.style.display = 'none';
+    }
 }
+
 
 function firstDot() {
     document.getElementById('#first-content').style.display = 'block';
