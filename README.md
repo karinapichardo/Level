@@ -11,6 +11,7 @@ In this project I was able to create a hamburger menu with JavaScript which was 
 I’m learning about the limitations of CSS, although awesome, there’s a lot that you can easily do with JavaScript. So I look forward to continuing to use both! 
 
 I practiced working with videos and images as backgrounds. 
+
 Likewise, I practiced using flex box and CSS grid - a major plus!
 
 ### *The biggest thing that this project really got me pondering about was responsive design...*
@@ -21,7 +22,7 @@ While it’s crucial for a website to look good on every device, it’s equally 
 
 With that being said, I’m super excited to continue to learn more about responsive design, and how to use media queries and other techniques more efficiently because I truly see the importance of it.
 
-### You can check out my final website here:
+### *You can check out my final website here:*
 
 https://karinapichardo.github.io/Level-Website/
 
