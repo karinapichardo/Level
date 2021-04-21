@@ -20,7 +20,7 @@ how targeting devices / styling for specific devices, is probably not ideal or b
 
 While it’s crucial for a website to look good on every device, it’s equally important to target breakpoints based on when your design fails vs the size of a specific mobile device, for example. 
 
-With that being said, I’m super excited to continue to learn more about responsive design, and how to use media queries and other techniques more efficiently because I truly see the importance of it.
+With that being said, I’m super excited to continue to learn more about responsive design, and how to use media queries and other techniques more efficiently because I truly am seeing the importance of it.
 
 ### *You can check out my final website here:*
 
