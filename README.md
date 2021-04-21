@@ -6,7 +6,7 @@ I learned how to incorporate svgs into forms / manipulate them, and I learned mo
 
 I  was able to incorporate JS into different components of my website.
 
-In this project I was able to create a hamburger menu with JavaScript which was neat. I also added a cool scroll animation using JavaScript. 
+In this project I was able to create a hamburger menu with JavaScript which was neat. I also added a cool scroll animation using JavaScript. As well as an active state for my navigation links with JS.
 
 I’m learning about the limitations of CSS, although awesome, there’s a lot that you can easily do with JavaScript. So I look forward to continuing to use both! 
 
