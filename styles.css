@@ -50,7 +50,7 @@ a {
 
 .hamburger-menu {
     position: absolute;
-    left: 285px;
+    left: 290px;
     bottom: 10px;
     border: 1px solid #ee5057;
     padding: 0.5rem;
@@ -915,5 +915,11 @@ span {
 @media (max-width: 280px) {
     .blogs-container {
         margin-left: -40px;
+    }
+}
+
+@media (max-width: 320px) {
+    .hamburger-menu {
+        left: 240px;
     }
 }
