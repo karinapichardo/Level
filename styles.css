@@ -607,11 +607,11 @@ video {
     margin-bottom: 1.5rem;
 }
 
-#more-blog {
+.more-text {
     font-weight: bold;
 }
 
-#more-blog:hover {
+.more-text:hover {
     color: #dc3545;
 }
 
